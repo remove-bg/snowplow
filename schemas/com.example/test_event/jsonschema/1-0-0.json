@@ -1,0 +1,16 @@
+{
+  "title": "test_event",
+  "type": "object",
+  "description": "A very simple custom event",
+  "properties": {
+    "hello": {
+      "type": "string"
+    },
+    "hello_array": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

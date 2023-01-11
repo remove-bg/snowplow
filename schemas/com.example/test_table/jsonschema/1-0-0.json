@@ -1,0 +1,40 @@
+{
+  "title": "test_table",
+  "type": "object",
+  "description": "A test schema used in Fivetran unit tests",
+  "properties": {
+    "boolean": {
+      "type": "boolean"
+    },
+    "string": {
+      "type": "string"
+    },
+    "string10": {
+      "type": "string",
+      "maxLength": 10
+    },
+    "integer": {
+      "type": "integer"
+    },
+    "integer1000": {
+      "type": "integer",
+      "maximum": 1000
+    },
+    "double": {
+      "type": "number"
+    },
+    "decimal": {
+      "type": "number",
+      "multipleOf": 0.001
+    },
+    "array": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "missing": {
+      "type": "string"
+    }
+  }
+}
